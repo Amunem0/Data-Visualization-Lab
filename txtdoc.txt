@@ -1,0 +1,14 @@
+Steps performed:
+1) Cleaned the data in excel.
+2) Fixed the date format.
+3) Removed unwanted columns (Umpire1,Umpire2).
+4) Added values in blank cells from another columns.
+   -Select Team1 col -> Find & Select -> Select Blanks & click ok -> Go to Formula Bar and press '=' -> Select col from 
+   corresponding toss winner because they were the team not mentioned in Team1 col.
+   -Perform above procedure with Team2.
+5) Used python to insert values in blank cell of neutral venues according to there corresponding cities (indian city = 0
+   ,Foreign city = 1).
+   Logic:
+   We will create a non-empty list to append and check whether the venue lies in India or not
+   and then replace value of neutral venue with list created.
+6) Then we used PowerBI to visualize the formatted data by creating a dashboard. 
